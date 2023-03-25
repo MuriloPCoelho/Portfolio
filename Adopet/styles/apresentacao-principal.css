@@ -1,0 +1,140 @@
+.principal {
+    background-color: var(--azul);
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.bg-1 {
+    background-image: url(../../assets/images/form-2.svg);
+    width: 84px;
+    height: 415px;
+    right: 0;
+    top: 199px;
+    background-position: right;
+}
+
+.bg-2 {
+    background-image: url(../../assets/images/illustration-1.svg);
+    width: 245px;
+    height: 295px;
+    bottom: 0;
+    align-self: center;
+    background-position: top;
+    background-size: cover;
+}
+
+.principal--container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 2;
+    position: relative;
+    top: 168px;
+}
+
+.principal__logo {
+    width: 186px;
+    margin-bottom: 24px;
+}
+
+.principal__titulo {
+    margin-bottom: 1rem;
+    font-size: 1.55rem;
+    font-weight: 500;
+    line-height: 48px;
+}
+
+.principal__texto {
+    margin-bottom: 24px;
+    padding: 0 60px;
+    font-size: 1rem;
+    line-height: 24px;
+}
+
+.principal__titulo, .principal__texto {
+    color: var(--branco);
+}
+
+.principal__link {
+    background-color: var(--vermelho);
+    width: 180px;
+    padding: 8px 0;
+    border-radius: 6px;
+    margin-bottom: 16px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+    line-height: 24px;
+    font-weight: 600;
+    color: white;
+}
+
+.principal__link:hover {
+    background-color: var(--vermelho-claro);
+}
+
+.principal__texto, .principal__link {
+    text-align: center;
+    line-height: 24px;
+}
+
+@media screen and (min-width: 768px) {
+    .bg-1 {
+        top: 268px;
+        width:  134px;
+        height: 664px;
+    }
+
+    .bg-2 {
+        width: 338px;
+        height: 382px;
+    }
+
+    .principal--container {
+        top: 274px;
+    }
+
+    .principal__logo {
+        width: 251px;
+        margin-bottom: 40px;
+    }
+
+    .principal__texto {
+        padding: 0 220px;
+        margin-bottom: 38px;
+    }
+
+    .principal__texto::before {
+        content: "Adotar pode mudar uma vida. ";
+    }
+
+    .principal__link {
+        width: 344px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .bg-1 {
+        top: 180px;
+    }
+
+    .bg-2 {
+        width: 346px;
+        height: 410px;
+    }
+
+    .principal--container {
+        top: 136px;
+    }
+
+    .principal__logo {
+        width: 259px;
+    }
+
+    .principal__texto {
+        padding: 0 500px;
+    }
+
+    .principal__link {
+        width: 362px;
+    }
+}

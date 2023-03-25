@@ -1,0 +1,134 @@
+.principal {
+    background-color: var(--branco);
+    position: relative;
+    height: auto;
+}
+
+.principal--container {
+    padding-top: 152px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.principal__texto {
+    text-align: center;
+    color: var(--azul);
+    padding: 0 60px;
+    font-size: 1rem;
+    line-height: 20px;
+}
+
+.lista-pets {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 16px;
+    white-space: nowrap;
+    padding-top: 32px;
+    width: 100%;
+    justify-items: center;
+}
+
+.lista-pets__pet {
+    background-color: var(--cinza-claro);
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-template-rows: repeat(4, auto);
+    padding: 16px 24px;
+    column-gap: 16px;
+    width: 100%;
+    max-width: 600px;
+}
+
+.lista-pets__pet > * {
+    z-index: 1;
+}
+
+.pet__foto {
+    grid-column: 1/2;
+    grid-row: 1/5;
+    width: 100%;
+}
+
+.pet__nome {
+    color: var(--azul);
+    font-size: 1rem;
+    line-height: 20px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.pet__descricao {
+    font-size: 0.875rem;
+    line-height: 20px;
+    margin-bottom: 30px;
+}
+
+.pet__localizacao {
+    font-size: 0.75rem;
+    line-height: 16px;
+    margin-bottom: 8px;
+}
+
+.pet__contato {
+    font-size: 0.625rem;
+    line-height: 16px;
+    display: flex;
+    gap: 8px;
+}
+
+.pet__contato::before {
+    content: url(../assets/icons/contact-icon.svg);
+}
+
+.pet__descricao, .pet__localizacao, .pet__contato {
+    color: var(--cinza-escuro);
+}
+
+@media screen and (min-width: 768px) {
+    .principal--container {
+        padding-top: 288px;
+    }
+
+    .principal__texto {
+        font-size: 1.25rem;
+    }
+
+    .break {
+        display: block;
+        padding-bottom: 0.75rem;
+    }
+
+    .lista-pets {
+        grid-template-columns: repeat(2, auto);;
+        padding: 32px;
+    }
+
+    .lista-pets__pet {
+        width: 100%;
+        max-width: none;
+    }
+
+}
+
+@media screen and (min-width: 1440px) {
+    .principal {
+        min-height: 800px;
+        height: 100%;
+    }
+
+    .principal--container {
+        padding-top: 204px;
+    }
+
+    .break {
+        display: inline;
+        padding-bottom: 0;
+    }
+
+    .lista-pets {
+        grid-template-columns: repeat(3, auto);
+        padding: 40px 160px 60px 160px;
+    }
+
+}

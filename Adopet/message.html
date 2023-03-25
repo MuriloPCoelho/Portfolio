@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adotpet - Mensagem</title>
+    <link rel="stylesheet" href="styles/cabecalho.css">
+    <link rel="stylesheet" href="styles/rodape.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/mensagem-principal.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <div class="background bg-0"></div>
+        <nav class="cabecalho__menu">
+            <ul class="menu__links">
+                <li class="menu__links--link">
+                    <a href="home.html"><img src="assets/icons/home-icon.svg" alt=""></a>
+                </li>
+                <li class="menu__links--link">
+                    <a href="message.html"><img src="assets/icons/message-icon.svg" alt=""></a>
+                </li>
+            </ul>
+        </nav>
+        <a class="cabecalho__link-perfil" href="profile.html"><img class="user-icon" src="assets/icons/user-icon.svg" alt=""></a>
+    </header>
+    <main class="principal">
+        <div class="background bg-1"></div>
+        <div class="principal--container">
+            <p class="principal__texto">Envie uma mensagem para a pessoa ou instituição que está cuidado do animal:</p>
+            <form class="principal__formulario" action="">
+                <label class="formulario__legenda" for="POST-nome">Nome</label>
+                <input class="formulario__dados" type="text" id="POST-nome" placeholder="Insira seu nome completo">
+                <label class="formulario__legenda" for="POST-telefone">Telefone</label>
+                <input class="formulario__dados" type="text" id="POST-telefone" placeholder="Insira seu telefone e/ou whatsapp">
+                <label class="formulario__legenda" for="POST-nome_pet">Nome do animal</label>
+                <input class="formulario__dados" type="text" id="POST-nome_pet" placeholder="Por qual animal você se interessou?">
+                <label class="formulario__legenda" for="POST-mensagem">Mensagem</label>
+                <textarea class="formulario__dados" id="POST-mensagem" cols="30" rows="10" placeholder="Escreva sua mensagem."></textarea>
+                <input class="formulario__botao" type="submit" value="Enviar">
+        </div>
+    </main>
+    <footer class="rodape">
+        <p>2022 - Desenvolvido por Alura.</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,85 @@
+.cabecalho {
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+}
+
+.bg-0 {
+    background-image: url(../assets/images/form-1.svg);
+    width: 100%;
+    height: 295px;
+}
+
+.cabecalho__menu {
+    position: absolute;
+    top: 50px;
+    left: 50px; 
+}
+
+.menu__links {
+    display: flex;
+    align-items: baseline;
+    gap: 58px;
+}
+
+.cabecalho__link-perfil {
+    position: absolute;
+    right: 32px;
+    top: 40px;
+}
+
+.user-icon {
+    width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+    .bg-0 {
+        width: 561px;
+        height: 470px;
+    }
+
+    .cabecalho__link-perfil {
+        top: 52px;
+        right: 42px;
+        width: 48px;
+    }
+
+    .cabecalho__menu {
+        display: flex;
+        top: 64px;
+    }
+
+    .menu__links {
+        gap: 69px;
+    }
+
+    .cabecalho__menu::before {
+        content: "";
+        background-image: url(../assets/images/adopet-logo__white.svg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 128px;
+        height: 30px;
+        margin-right: 65px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .cabecalho__link-perfil {
+        top: 46px;
+        right: 174px;
+        width: 56px;
+    }
+
+    .cabecalho__menu {
+        left: 137px;
+    }
+
+    .cabecalho__menu::before {
+        margin-right: 48px;
+    }
+
+    .menu__links {
+        gap: 33px;
+    }
+}
