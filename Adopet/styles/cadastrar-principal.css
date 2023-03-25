@@ -4,7 +4,7 @@
 }
 
 .bg-1 {
-    background-image: url(../../assets/images/illustration-2.svg);
+    background-image: url(../assets/images/illustration-2.svg);
     width: 125px;
     height: 243px;
     top: -20px;
@@ -15,7 +15,7 @@
 }
 
 .bg-2 {
-    background-image: url(../../assets/images/form-2.svg);
+    background-image: url(../assets/images/form-2.svg);
     width: 82px;
     height: 415px;
     transform: scaleX(-1);
@@ -91,7 +91,7 @@
 }
 
 .icone__alternar-visibilidade {
-    content: url(../../assets/icons/view_password-icon.svg);
+    content: url(../assets/icons/view_password-icon.svg);
     cursor: pointer;
     position: absolute;
     margin-left: 16px;

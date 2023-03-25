@@ -132,7 +132,7 @@
 
 @media screen and (min-width: 768px) {
     .bg-1 {
-        background-image: url(../../assets/images/form-2.svg);
+        background-image: url(../assets/images/form-2.svg);
         width: 134px;
         height: 664px;
         background-position: right;
