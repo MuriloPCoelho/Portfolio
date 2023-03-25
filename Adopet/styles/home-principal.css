@@ -112,6 +112,15 @@
 }
 
 @media screen and (min-width: 1440px) {
+    .bg-1 {
+        background-image: url(../assets/images/form-2.svg);
+        background-position: right;
+        width: 134px;
+        height: 664px;
+        right: 0;
+        top: 268px;
+    }
+
     .principal {
         min-height: 800px;
         height: 100%;
