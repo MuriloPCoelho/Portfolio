@@ -1,4 +1,5 @@
 ### Para acessar o site: https://murilopcoelho.github.io/Portfolio/Adopet/landing.html
+[Design by [Alura](https://www.alura.com.br/).]
 
 ![Tela inicial da Adopet](https://raw.githubusercontent.com/MuriloPCoelho/Portfolio/main/Adopet/%23Showcase/Challenge-Adopet-Incial.jpg)
 ![Tela de cadastro da Adopet](https://raw.githubusercontent.com/MuriloPCoelho/Portfolio/main/Adopet/%23Showcase/Challenge-Adopet-Cadastro.jpg)
