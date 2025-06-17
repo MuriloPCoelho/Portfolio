@@ -7,7 +7,6 @@ export async function clientLoader({ params }: Route.ClientLoaderArgs) {
   const response = await axios.get(
     "https://jsonplaceholder.typicode.com/posts/" + postId,
   );
-  console.log("Post", response);
 
   return response.data;
 }
