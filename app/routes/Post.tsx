@@ -25,7 +25,7 @@ export async function clientAction({ params }: Route.ClientLoaderArgs) {
 
 const Post = ({ loaderData }: Route.ComponentProps) => {
   const fetcher = useFetcher();
-  const idDeleted = fetcher.data?.isDeleted;
+  // const idDeleted = fetcher.data?.isDeleted;
 
   return (
     <div>
