@@ -1,0 +1,11 @@
+1.Criação de Rotas
+
+2.Loaders
+- Quando usar?
+
+3.Actions
+- Quando usar?
+
+4.Navegação
+- redirect() //só pode ser usado dentro de um loader ou action 
+- useNavigate //usado nos componentes para redirecionar
